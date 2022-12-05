@@ -7,7 +7,7 @@ df.columns = ['Movements']
 df2 = df[9:].reset_index(drop=True)
 
 def aoc22_5_part1(df2):
-    # Will come back a write a parser - really cba to do for the time being
+    # Will come back and write a parser - really cba to do for the time being
     stack1 = ['S', 'M' , 'R', 'N', 'W', 'J' , 'V' , 'T']
     stack2 = ['B', 'W', 'D', 'J', 'Q', 'P', 'C', 'V']
     stack3 = ['B', 'J', 'F', 'H', 'D', 'R', 'P']
@@ -46,7 +46,7 @@ def aoc22_5_part1(df2):
     return res
 
 def aoc22_5_part2(df2):
-    # Will come back a write a parser - really cba to do for the time being
+    # Will come back and write a parser - really cba to do for the time being
     stack1 = ['S', 'M' , 'R', 'N', 'W', 'J' , 'V' , 'T']
     stack2 = ['B', 'W', 'D', 'J', 'Q', 'P', 'C', 'V']
     stack3 = ['B', 'J', 'F', 'H', 'D', 'R', 'P']
