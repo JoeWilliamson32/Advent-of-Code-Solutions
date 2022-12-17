@@ -33,7 +33,7 @@ for _ in range(2022):
         xMax = max(shape, key = lambda x:x[0])[0]
         xMin = min(shape, key = lambda x:x[0])[0]
         yMax = max(shape, key = lambda x:x[1])[1]
-        yMax = min(shape, key = lambda x:x[1])[1]
+        yMin = min(shape, key = lambda x:x[1])[1]
         
         if flow == '>' and xMax + 1 < 7:
             shape_test = set((x+1, y) for x,y in shape)
